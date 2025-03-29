@@ -1,0 +1,137 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Portfolio - Sandhiya</title>
+         <style> body { font-family: Poppins, Arial, sans-serif; 
+         margin: 0; 
+         padding: 0; 
+         background-color: #f4f7fc; 
+         
+       /* Light background for a clean look */
+       
+          color: #333; 
+    
+    /* Dark text color for readability */
+     } header { background-color: #2C3E50; 
+     
+     /* Dark blue for a professional look */
+     
+      color: #fff; 
+      text-align: center;
+       padding: 2rem 0; 
+       }
+        .header-content h1 { 
+        font-size: 2.5rem; 
+        } nav 
+        { background-color: #34495E; 
+        
+        /* Slightly lighter blue */ 
+        
+        color: #fff; 
+        text-align: center; 
+        } nav ul { 
+        list-style-type: none;
+         padding: 0;
+          } nav ul li { 
+          display: inline; 
+          margin: 0 20px; 
+          } nav ul li a {
+           text-decoration: none; 
+           color: #fff; 
+           } .section-content { background-color: #fff;
+            padding: 2rem;
+             margin: 1rem; 
+             border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+              text-align: justify;
+             } .download-button { background-color: #2C3E50; 
+             color: #fff; 
+             padding: 0.5rem 1rem; text-decoration: none; 
+             border-radius: 20px;
+              display: inline-block; margin-top: 10px;
+               } .download-button:hover { background-color: #1A242F; 
+               
+  /* Darker shade on hover */
+  
+   } footer { text-align: center; 
+   padding: 1rem 0;
+    background-color: #34495E;
+     color: #fff;
+      } ul { 
+      list-style-type: disc; 
+      padding-left: 20px; 
+      } 
+      </style> 
+      </head> 
+      <body> 
+          <header>
+           <div class="header-content">
+         <h1>Sandhiya KM</h1> 
+    <p>Bachelor of Computer Applications</p>
+       </div>
+       </header> 
+ <nav>
+      <ul>
+      <li><a href="#about">About</a></li> <li><a href="#education">Education</a></li> <li><a href="#skills">Skills</a></li> <li><a href="#projects">Projects</a></li> <li><a href="#resume">Resume</a></li>
+       </ul> 
+       </nav> 
+       <section id="about"> 
+       <div class="section-content">
+       <h2>About Me</h2> 
+    <p> I’m <b>Sandhiya KM </b>, a passionate and highly dedicated Web Developer with expertise in multiple programming languages, including <b>JavaScript, Java, CSS, C, C++, Visual Basic, and Python</b>. I have created various projects such as <b>animation, cartoons, invitation web design, a Google link project using HTML & CSS templates, and a digital resume</b>.I am committed to delivering high-quality work and take immense pride in my ability to complete tasks ahead of deadlines with perfection. My loyalty to my work and company ensures that I always give my best in every project I undertake. Eager to innovate, learn, and contribute, I aim to develop impactful and creative web solutions. </p> 
+    </div>
+     </section> 
+     <section id="education">
+     <div class="section-content"> <h2>Education</h2>
+      <p>Madras University - Bachelor of Computer Applications (2026)</p>
+   </div>
+    </section> 
+    <section id="skills"> 
+<div class="section-content"> <h2>Skills</h2> <ul>
+   <li>Web Development</li>
+    <li>JavaScript</li>
+     <li>Java</li> 
+     <li>C, C++</li> 
+     <li>CSS, HTML</li> 
+     <li>Python</li>
+      <li>Visual Basic</li> 
+      <li>basics of AI</li>
+      <li>Responsive Web Design</li> 
+       </ul>
+        </div>
+         </section>
+  <section id="projects"> 
+<div class="section-content"> <h2>Projects</h2> 
+<ul>
+ <li><a href="#">Animation & Cartoon Design</a></li> 
+ <li><a href="#">Web Design</a></li>
+  <li><a href="#">Google Link </a></li>
+  <li><a href="#">Project using(HTML & CSS)</a></li> 
+<li><a href="#">Digital Resume</a></li> 
+</ul>
+ </div>
+  </section>
+  <section id="resume">
+ <div class="section-content"> <center> <h2>Resume</h2>
+ <a href="./mycv.pdf" target="_blank" class="download-button">Download CV</a> 
+ </center> 
+ </div>
+  </section>
+   <footer> 
+       <p>&copy; 2026 Sandhiya</p>
+        </footer>
+         <script> document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function(e) 
+              { e.preventDefault(); 
+  const targetId=this.getAttribute('href').substring(1);
+               const targetElement = document.getElementById(targetId); 
+             if (targetElement) { window.scrollTo({ top: targetElement.offsetTop, behavior: 'smooth' }
+             ); 
+             } 
+             }
+             );
+              }
+              );
+          </script> 
+         </body>
+          </html> 
